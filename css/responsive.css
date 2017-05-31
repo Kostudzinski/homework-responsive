@@ -1,0 +1,49 @@
+@media screen and (max-width: 1170px) {
+    #img {
+        display: none;
+    }
+    
+    #back {
+    background-image: url(man-2.jpg);
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+    #front {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    left: 850px;
+    top: 200px;
+    font-weight: 900;
+    
+}
+    #frontend {
+    font-size: 22px;
+}
+}
+
+@media screen and (max-width: 992px) {
+    #img {
+        display: inline;
+    }
+    
+    #back {
+    width: 100%;
+    height: 100px;
+
+}
+    #front {
+    width: 70%;
+    position: absolute;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    top: 850px;
+    font-weight: 900;
+    
+}
+    #frontend {
+    font-size: 22px;
+}
+}
